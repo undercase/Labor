@@ -1,0 +1,46 @@
+html, body {
+  font-family: "Merriweather";
+  line-height: 1.5;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.wrapper {
+  margin: auto;
+  width: 100%;
+  max-width: 700px;
+}
+
+h1, h2 {
+  color: #008bba;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1.25em;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px dashed #008bba;
+  color: #008bba;
+  opacity: 0.7;
+  transition: opacity .2s ease-in-out;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+.name {
+  color: #008bba;
+}
